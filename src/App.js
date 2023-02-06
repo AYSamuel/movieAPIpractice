@@ -51,7 +51,7 @@ const App = () => {
         </div>
       ) : (
         <div className='empty'>
-          <h2>Search for your favorite movie</h2>
+          <h2>Search your movies</h2>
         </div>
       )}
     </div>
