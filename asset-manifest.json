@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movieAPIpractice/static/css/main.aaf32c80.css",
+    "main.js": "/movieAPIpractice/static/js/main.e4b15736.js",
+    "index.html": "/movieAPIpractice/index.html",
+    "static/media/search.svg": "/movieAPIpractice/static/media/search.3af80ee6cd4cef973810f74b91e10f80.svg",
+    "main.aaf32c80.css.map": "/movieAPIpractice/static/css/main.aaf32c80.css.map",
+    "main.e4b15736.js.map": "/movieAPIpractice/static/js/main.e4b15736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaf32c80.css",
+    "static/js/main.e4b15736.js"
+  ]
+}
