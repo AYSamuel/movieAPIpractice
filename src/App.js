@@ -36,7 +36,13 @@ const App = () => {
         <input
           placeholder='Search for movies'
           value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}></input>
+          onChange={(e) => setSearchTerm(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              searchMovies(searchTerm);
+              // Call the API search function with the current searchTerm value
+            }
+          }}></input>
         <img
           src={SearchIcon}
           alt='search'
